@@ -166,18 +166,24 @@ header {
         .header-content-inner {
             h1 {
                 font-weight: 700;
-                text-transform: uppercase;
+                text-shadow: -3px 3px black;
                 margin-top: 0;
                 margin-bottom: 0;
+                background-color: rgba(0, 0, 0, 0.5);
             }
             hr {
                 margin: 30px auto;
             }
             p {
                 font-weight: 300;
-                color: rgba(white, .7);
+                color: white;
                 font-size: 16px;
                 margin-bottom: 50px;
+                text-shadow: -1px 2px #000, 0 0 7px #000;
+            }
+            div.brand>img {
+                width: 250px;
+                height: auto;
             }
         }
     }
@@ -348,4 +354,3 @@ img::-moz-selection {
 body {
     -webkit-tap-highlight-color: $theme-dark;
 }
-

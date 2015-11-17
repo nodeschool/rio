@@ -1,12 +1,12 @@
 # Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+title: NodeSchool Rio de Janeiro
+email: antonio@milesibastos.com
+description: Organizing NodeSchool events in Rio de Janeiro, RJ!
+baseurl: "/rio" # the subpath of your site, e.g. /blog/
+url: "http://nodeschool.io" # the base hostname & protocol for your site
 
-twitter_username:
-github_username:
+twitter_username: milesibastos
+github_username: milesibastos
 
 # Build settings
 markdown: kramdown
